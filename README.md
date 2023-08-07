@@ -27,18 +27,18 @@ Ce script shell automatisé vous permet de créer un nouveau virtual host sur vo
     ```bash
     chmod +x create-virtual-host.sh
 
-4. Exécutez le script en fournissant les informations nécessaires lorsque vous y êtes invité :
+4. Exécutez le script suivi du nom de votre virtual host (sous-domaine du localhost) :
 
     ```bash
-    ./create-virtual-host.sh
+    ./create-virtual-host.sh mon-vhost
 
 5. Suivez les instructions à l'écran pour créer et configurer votre virtual host.
 
 ## Fonctionnalités
-Crée un répertoire racine pour le site.
-Génère automatiquement le fichier de configuration du virtual host.
-Active le virtual host et redémarre le serveur Apache.
-Prise en charge des domaines personnalisés et des adresses IP.
+- Crée un répertoire racine pour le site.
+- Génère automatiquement le fichier de configuration du virtual host.
+- Active le virtual host et redémarre le serveur Apache.
+- Prise en charge des domaines personnalisés et des adresses IP.
 
 ## Avertissement
 Assurez-vous de comprendre les actions effectuées par ce script avant de l'exécuter. Une mauvaise utilisation pourrait affecter la configuration de votre serveur Apache.
@@ -46,7 +46,6 @@ Assurez-vous de comprendre les actions effectuées par ce script avant de l'exé
 ## Licence
 Ce script est distribué sous la licence MIT. Consultez le fichier LICENSE pour plus d'informations.
 
-rust
-Copy code
+    ```rust
 
-N'oubliez pas d'ajuster les chemins, les commandes et les instructions en fonction de la configuration spécifique de votre script. Assurez-vous également d'inclure les détails de licence appropriés si nécessaire.
+    N'oubliez pas d'ajuster les chemins, les commandes et les instructions en fonction de la configuration spécifique de votre script. Assurez-vous également d'inclure les détails de licence appropriés si nécessaire.
