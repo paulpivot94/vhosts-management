@@ -15,25 +15,22 @@ Ce script shell automatisé vous permet de créer un nouveau virtual host sur vo
 1. Clonez ce dépôt sur votre serveur :
    
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-repo.git
+   git clone https://github.com/paulpivot94/vhosts-management.git
 
 2. Accédez au répertoire du script :
 
-bash
-Copy code
-cd chemin/vers/votre-repo
+    ```bash
+    cd chemin/vers/votre-repo
 
 3. Assurez-vous que le script a les permissions d'exécution :
 
-bash
-Copy code
-chmod +x create-virtual-host.sh
+    ```bash
+    chmod +x create-virtual-host.sh
 
 4. Exécutez le script en fournissant les informations nécessaires lorsque vous y êtes invité :
 
-bash
-Copy code
-./create-virtual-host.sh
+    ```bash
+    ./create-virtual-host.sh
 
 5. Suivez les instructions à l'écran pour créer et configurer votre virtual host.
 
