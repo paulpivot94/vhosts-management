@@ -47,5 +47,4 @@ Assurez-vous de comprendre les actions effectuées par ce script avant de l'exé
 Ce script est distribué sous la licence MIT. Consultez le fichier LICENSE pour plus d'informations.
 
     ```rust
-
-    N'oubliez pas d'ajuster les chemins, les commandes et les instructions en fonction de la configuration spécifique de votre script. Assurez-vous également d'inclure les détails de licence appropriés si nécessaire.
+    N'oubliez pas d'ajuster les chemins, les commandes et les instructions en fonction de la configuration spécifique de votre serveur.
