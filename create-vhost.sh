@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Creating Virtual Host"
+echo "Creation of Virtual Host"
 cd /etc/apache2/sites-available
 
 cat <<EOF >> "$1.conf"
